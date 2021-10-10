@@ -41,3 +41,11 @@ body{
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
+.cs-item>.prog-icon{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.cs-item:hover>.prog-icon{
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
